@@ -1,0 +1,91 @@
+body{
+padding: 0; 
+margin: 0; 
+font-family:calibri, sans-serif;
+//background: #000;
+}
+#head{
+position:relative;
+margin: 0, auto; 
+width:100%;
+height: 200;
+background:black;
+}
+
+#label {
+position:absolute;
+top: 10.5%;
+
+z-index:50;
+max-width: 22.5%;
+max-height: 76.3%;
+}
+
+#contact{
+position: relative;
+
+margin: 0;	
+}
+
+#contact p{
+text-align: right;	
+font-family:calibri, sans-serif;
+font-size:105%;
+color:#c0c0c0;
+ }
+
+ #seti{
+position: relative;
+right: 0px;
+height: 19.5%;
+margin: 0;
+text-align: right;
+}
+#seti img {
+position: relative;
+
+max-width: 100%;
+max-height: 100%;
+}
+
+
+#niz{
+position:relative;
+margin: 0, auto; 
+width:100%;
+height: 25%;
+background:black;
+}
+
+
+
+#all{
+position:relative;
+width: 100%;
+height: 100%;
+background: gray;
+
+}
+
+
+#type{
+position:relative;
+float: left;
+margin: 10px;
+//width: 333px;
+//height: 333px;
+}
+#ten{
+position:relative;
+top: 50%;
+text-align: center;
+}
+
+#im1 {
+position:absolute;
+width:100%;
+}
+
+#im1:hover {
+opacity: 0.8;
+}

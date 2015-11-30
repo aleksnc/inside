@@ -1,0 +1,518 @@
+body{
+padding: 0; 
+margin: 0; 
+font-family:calibri, sans-serif;
+background: #000;
+}
+/* Tiny Scrollbar */
+#scrollbar1 ,#scrollbar2{ 
+	//width: 1085px; 
+	margin: 0px 0 10px; 
+}
+#scrollbar1 .viewport , #scrollbar2 .viewport { 
+	//width: 1065px; 
+	height: 100%; 
+	overflow: hidden;
+	position: relative; 
+}
+#scrollbar1 .overview , #scrollbar2 .overview { 
+width: 100%; 
+height: 99.9%; 
+	list-style: none; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	padding: 0; 
+	margin: 0; 
+}
+#scrollbar1 .scrollbar, #scrollbar2 .scrollbar{ 
+	position: relative; 
+	background-position: 0 0; 
+	float: right; 
+	width: 15px; 
+	//left: 6.8%;
+}
+#scrollbar1 .track, #scrollbar2 .track { 
+	height: 100%; 
+	width:13px; 
+	position: relative; 
+	padding: 0 1px; 
+}
+#scrollbar1 .thumb, #scrollbar2 .thumb  { 
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+	height: 20px; 
+	width: 25px; 
+	cursor: pointer; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: 15px; 
+}
+#scrollbar1 .thumb .end, #scrollbar2 .thumb .end { 
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+	overflow: hidden; 
+	height: 5px; 
+	width: 25px; 
+}
+#scrollbar1 .disable , #scrollbar2 .disable  { 
+	display: none; 
+}
+.noSelect { 
+	user-select: none; 
+	-o-user-select: none; 
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+ }
+
+ 
+ 
+ 
+/*ВСЕ*/
+
+
+
+
+#wey{
+left:-2px;
+width: 100%;
+position:absolute;
+top:3%;
+
+}
+
+
+ul, li{
+	padding: 0;
+	margin: 0;
+}
+
+
+#menu{
+margin: 0;
+right: 0px;
+//top: 113px;
+height: 33px;
+position: absolute;
+}
+
+#nav{
+position:relative;
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+#nav li{
+margin:0;
+	float:left;
+	//margin-right:10px;
+	position:relative;
+	display:block;
+
+}
+#nav li a{
+float:right;
+padding: 10px 0 0 75px;
+color:#c0c0c0;
+text-transform:uppercase;
+font-family:calibri, sans-serif;
+font-size: 1.2em;
+display: inline-block;
+text-decoration:none;
+	
+}
+#nav li a:hover{
+	color:#b98151;
+	text-decoration:none;
+}
+
+
+#menu ul ul{
+position:absolute;
+top:90%;
+//padding-top:6px;
+width:610;
+right:-165px;
+display:none;
+}
+
+#menu ul li:hover ul{
+
+display:block;
+}
+
+#menu ul ul li{
+padding:0;
+padding-top:3px;
+padding-bottom:2px;
+}
+#menu ul ul li a{
+padding: 10px 0 0 10px;
+text-transform:none;
+font-size: 1em;
+border:none;
+color:#c0c0c0;
+}
+
+
+/*КОНЕЦ МЕНЮ*/
+
+#text{
+position:relative;
+color:#c0c0c0;
+}
+
+#album{
+position: relative;
+margin: 0 auto;
+width: 100%;
+height: 100%;
+}
+#albom{
+position: relative;
+margin: 0 auto;
+width: 100%;
+height: 100%;
+}
+
+#album li{
+	float:left;
+	margin:0 0 10px 10px;
+	position:relative;
+	width:341px;
+	height:227px;
+}
+
+/*
+#line1, #line2, #line3{
+position:absolute;
+width: 32.5%;
+height: 100%;
+max-height: 100%;
+
+
+}
+
+#line2{
+	left: 34%;
+}
+#line3{
+	left: 68%;
+}*/
+
+#line{
+position:relative;
+float: left;
+width: 31%;
+height: 100%;
+max-height: 100%;
+margin: 0 6px;
+
+}
+
+
+
+#im1 ,#im2  {
+position:absolute;
+width: 100%;
+height: 100%;
+max-height: 100%;
+z-index:2;
+opacity: 1;
+display:block;
+   -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+
+}
+
+#im1:hover , #im2:hover{
+opacity: 0.2;
+
+}	
+
+#type{
+position:relative;
+//max-width:100%;
+}
+
+#ten a{
+
+text-decoration:none;
+text-transform:uppercase;
+font-family:calibri, sans-serif;
+font-size:14pt;
+color: white;
+}
+
+#type span{
+text-decoration:none;
+text-transform:uppercase;
+font-family:calibri, sans-serif;
+font-size:11pt;
+color: white;
+}
+
+#ten{
+position:relative;
+top: 50%;
+text-align: center;
+}
+
+
+#kompany1{
+	position:relative;
+	//width: 1043px;
+	height: 1000px;	
+}	
+
+
+#foto{
+position:relative;
+float:left;
+width: 35%;
+max-width: 300px;
+display: block;
+}
+
+#tex{
+position:relative;
+float:left;
+display: block;
+left: 3%;
+width: 62%;
+//height: 306px;
+text-align: center;	
+font-family:calibri, sans-serif;
+font-size:14pt;
+color:#c0c0c0;
+}
+
+
+
+#kompany2{
+	top: 20px;
+	position:relative;
+	//width: 1043px;
+	height: 450px;	
+} 
+
+
+
+
+#bio{
+font-size:13pt;
+text-align: justify ;	
+}
+
+#label {
+position:absolute;
+top: 10.5%;
+
+z-index:50;
+max-width: 22.5%;
+max-height: 76.3%;
+}
+
+#infa{
+position:absolute;
+width: 86.5%;
+height: 100%;
+right: 0px;
+}
+
+#contact{
+position: relative;
+
+margin: 0;	
+}
+
+#contact p{
+text-align: right;	
+font-family:calibri, sans-serif;
+font-size:105%;
+color:#c0c0c0;
+ }
+
+#texn a{
+letter-spacing: 1px;
+margin:0 auto;
+color:#423E3E;
+//text-transform:uppercase;
+font-family:calibri, sans-serif;
+font-size:12pt;
+display: inline-block;
+text-decoration:none;
+padding: 15px 0px 15px 0px;
+ }
+ 
+#texn #adres{
+padding: 15px 90px 15px 90px;
+}
+ 
+ 
+#seti{
+position: relative;
+right: 0px;
+height: 19.5%;
+margin: 0;
+text-align: right;
+}
+#seti img {
+position: relative;
+
+max-width: 100%;
+max-height: 100%;
+}
+
+
+
+
+
+#a_head{
+position: relative;
+margin:0;
+width: 100%;
+background:#000;
+height: 20.5%;
+//height: 189px;
+}
+#head{
+position:relative;
+width: 94%;
+//width: 1178px;
+height: 100%;
+margin: 0 auto;
+background:#000;
+}
+
+#a_all{
+position: relative;
+width: 100%;
+height: 69%;
+//height: 632px;
+background:#423e3d;
+}
+#all{
+position:relative;
+width: 94%;
+//width: 1178px;
+height: 100%;
+background:#423e3d;
+margin: 0 auto;
+
+}
+
+#a_niz{
+position: relative;
+width: 100%;
+height: 10.1%;
+//height: 93px;
+background:#000;
+}
+
+#niz{
+border-style: solid;
+    border-width: 2px 0px 0px 0px;
+	border-color:#423E3E;
+position:relative;
+
+height: 48%;
+top:47%;
+margin: 0 auto;
+background:#000;
+}
+
+#texn{
+position:relative;
+width: 94%;
+//width: 1178px;
+height: 100%;
+margin: 0 auto;
+
+text-align: center;
+}
+
+
+
+/*////ALBOMI//*/
+
+#tovar, #tovar img{
+width:341px;
+height:227px;
+}
+
+
+
+#tekst{
+
+text-decoration:none;
+text-transform:uppercase;
+font-family:calibri, sans-serif;
+font-size:13pt;
+color: white;
+
+}
+.gallery img{
+padding: 5px;
+border: solid 1px;
+border-color: gray;
+margin: 5px;
+
+}
+@media (orientation: landscape) and (min-height: 900px){
+#tex {
+height: 470px;
+}
+#kompany1{
+height: 940px;
+}
+#nav li a{
+font-size: 1.4em;
+
+}
+#menu ul ul li a{
+font-size: 1.2em;
+
+}
+#menu ul ul {
+right:-180px;
+width:712px;
+}
+
+}
+@media (orientation: landscape) and (max-height: 600px){
+#nav li a{
+font-size: 0.9em;
+
+}
+#menu ul ul li a{
+
+font-size: 0.8em;
+
+}
+#menu ul ul {
+right:-158px;
+width:560px;
+top:20px;
+
+}
+
+}
+
+@media (orientation: landscape) and (max-width: 1200px){
+#line{
+width: 31%;
+}
+
+}
+
+@media (orientation: landscape) and (max-width: 600px){
+#albom{
+height: 31%;
+}
+
+}
+
